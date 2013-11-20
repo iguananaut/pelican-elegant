@@ -1,0 +1,15 @@
+#content-sans-footer, footer {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#content-sans-footer {
+    /* The default is 100% but let's make this a little less
+     * extreme so that the footer still shows on pages with
+     * little content */
+    min-height: 90%;
+}
+
+p.cya {
+    font-size: small;
+}
