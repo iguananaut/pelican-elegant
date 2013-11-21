@@ -1,4 +1,4 @@
-{% if DISQUS_SITENAME and SITEURL and article.status != 'draft' %}
+{% if DISQUS_SITENAME and SITEURL and (article is not defined or article.status != 'draft') %}
 <script  language="javascript" type="text/javascript">
 function uncollapse() {
     var hash_str = window.location.hash;

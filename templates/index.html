@@ -64,5 +64,17 @@
         </div>
         {% endif %}
     </div>
+    <div class="row-fluid">
+      <div class="span10">
+        {% include 'comments.html' %}
+      </div>
+    </div>
+
 </div>
 {% endblock content %}
+
+{% block script %}
+    {{ super() }}
+    {% include 'disqus_script_count.html' %}
+    {% include 'disqus_comments_uncollapse.html' %}
+{% endblock script %}

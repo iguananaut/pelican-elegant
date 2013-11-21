@@ -1,11 +1,11 @@
-{% if DISQUS_SITENAME and SITEURL and article.status != 'draft' %}
+{% if DISQUS_SITENAME and SITEURL and (article is not defined or article.status != 'draft') %}
 <script type="text/javascript">
     var disqus_shortname = '{{ DISQUS_SITENAME }}';
 
     (function () {
         var s = document.createElement('script'); s.async = true;
         s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        s.src = '{% if not PROTOCOL_RELATIVE_URLS|default(false) %}http:{% endif %}//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
