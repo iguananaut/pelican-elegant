@@ -1,3 +1,7 @@
+#article-list {
+    margin-bottom: 50px;
+}
+
 #content-sans-footer, footer {
     margin: 0 auto;
     max-width: 1200px;
