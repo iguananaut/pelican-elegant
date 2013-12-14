@@ -1,3 +1,7 @@
+#article-list {
+    margin-bottom: 50px;
+}
+
 #content-sans-footer, footer {
     margin: 0 auto;
     max-width: 1200px;
@@ -16,4 +20,9 @@ p.cya {
 
 .page-header a {
     color: #EC7600;
+
+img.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
