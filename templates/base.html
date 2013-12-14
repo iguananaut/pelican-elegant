@@ -30,6 +30,7 @@
         {%if CUSTOM_CSS %}
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/custom.css" media="screen">
         {% endif %}
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/highlight.js/styles/obsidian.css" media="screen">
         {% endblock head_links %}
         {% include 'favicon_links.html' %}
         {% block feed_links %}
@@ -85,6 +86,15 @@
             {
                 return (query.length > 0);
             }
+        </script>
+        <script src="{{ SITEURL }}/theme/highlight.js/highlight.pack.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function() {
+              $("span.site-name").each(function(i, e) {
+                  $(e).addClass("highlight");
+                  hljs.highlightBlock(e);
+            });
+          });
         </script>
         {% endblock script %}
         {% include 'stat_counter.html' %}

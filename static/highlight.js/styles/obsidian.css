@@ -1,0 +1,154 @@
+/**
+ * Obsidian style
+ * ported by Alexander Marenin (http://github.com/ioncreature)
+ */
+
+.highlight code {
+    display: block; padding: 0.5em;
+    background: #282B2E;
+}
+
+.highlight .keyword,
+.highlight .literal,
+.highlight .change,
+.highlight .winutils,
+.highlight .flow,
+.highlight .lisp .title,
+.highlight .clojure .built_in,
+.highlight .nginx .title,
+.highlight .css .id,
+.highlight .tex .special {
+    color: #93C763;
+}
+
+.highlight .number {
+    color: #FFCD22;
+}
+
+.highlight code {
+    color: #E0E2E4;
+}
+
+.highlight .css .tag,
+.highlight .css .pseudo {
+    color: #D0D2B5;
+}
+
+.highlight .attribute,
+.highlight code .constant {
+    color: #668BB0;
+}
+
+.highlight .xml .attribute {
+    color: #B3B689;
+}
+
+.highlight .xml .tag .value {
+    color: #E8E2B7;
+}
+
+.highlight .code,
+.highlight .class .title,
+.highlight .header {
+    color: white;
+}
+
+.highlight .class,
+.highlight .hexcolor {
+    color: #93C763;
+}
+
+.highlight .regexp {
+    color: #D39745;
+}
+
+.highlight .at_rule,
+.highlight .at_rule .keyword {
+    color: #A082BD;
+}
+
+.highlight .doctype {
+    color: #557182;
+}
+
+.highlight .link_url,
+.highlight .tag,
+.highlight .tag .title,
+.highlight .bullet,
+.highlight .subst,
+.highlight .emphasis,
+.highlight .haskell .type,
+.highlight ..highlightprocessor,
+.highlight .pragma,
+.highlight .ruby .class .parent,
+.highlight .built_in,
+.highlight .sql .aggregate,
+.highlight .django .template_tag,
+.highlight .django .variable,
+.highlight .smalltalk .class,
+.highlight .javadoc,
+.highlight .django .filter .argument,
+.highlight .smalltalk .localvars,
+.highlight .smalltalk .array,
+.highlight .attr_selector,
+.highlight .pseudo,
+.highlight .addition,
+.highlight .stream,
+.highlight .envvar,
+.highlight .apache .tag,
+.highlight .apache .cbracket,
+.highlight .tex .command,
+.highlight .prompt {
+    color: #8CBBAD;
+}
+
+.highlight .string {
+    color: #EC7600;
+}
+
+.highlight .comment,
+.highlight .java .annotation,
+.highlight .blockquote,
+.highlight .horizontal_rule,
+.highlight .python .decorator,
+.highlight .template_comment,
+.highlight .pi,
+.highlight .deletion,
+.highlight .shebang,
+.highlight .apache .sqbracket,
+.highlight .tex .formula {
+    color: #818E96;
+}
+
+.highlight .keyword,
+.highlight .literal,
+.highlight .css .id,
+.highlight .phpdoc,
+.highlight .title,
+.highlight .header,
+.highlight .haskell .type,
+.highlight .vbscript .built_in,
+.highlight .sql .aggregate,
+.highlight .rsl .built_in,
+.highlight .smalltalk .class,
+.highlight .diff .header,
+.highlight .chunk,
+.highlight .winutils,
+.highlight .bash .variable,
+.highlight .apache .tag,
+.highlight .tex .special,
+.highlight .request,
+.highlight .at_rule .keyword,
+.highlight .status {
+    font-weight: bold;
+}
+
+.highlight .coffeescript .javascript,
+.highlight .javascript .xml,
+.highlight .tex .formula,
+.highlight .xml .javascript,
+.highlight .xml .vbscript,
+.highlight .xml .css,
+.highlight .xml .cdata {
+    opacity: 0.5;
+}

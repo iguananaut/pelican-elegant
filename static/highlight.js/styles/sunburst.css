@@ -1,0 +1,160 @@
+/*
+
+Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.highlight code {
+  display: block; padding: 0.5em;
+  background: #000; color: #f8f8f8;
+}
+
+.highlight .comment,
+.highlight .template_comment,
+.highlight .javadoc {
+  color: #aeaeae;
+  font-style: italic;
+}
+
+.highlight .keyword,
+.highlight .ruby .function .keyword,
+.highlight .request,
+.highlight .status,
+.highlight .nginx .title {
+  color: #E28964;
+}
+
+.highlight .function .keyword,
+.highlight .sub .keyword,
+.highlight .method,
+.highlight .list .title {
+  color: #99CF50;
+}
+
+.highlight .string,
+.highlight .tag .value,
+.highlight .cdata,
+.highlight .filter .argument,
+.highlight .attr_selector,
+.highlight .apache .cbracket,
+.highlight .date,
+.highlight .tex .command,
+.highlight .coffeescript .attribute {
+  color: #65B042;
+}
+
+.highlight .subst {
+  color: #DAEFA3;
+}
+
+.highlight .regexp {
+  color: #E9C062;
+}
+
+.highlight .title,
+.highlight .sub .identifier,
+.highlight .pi,
+.highlight .tag,
+.highlight .tag .keyword,
+.highlight .decorator,
+.highlight .shebang,
+.highlight .prompt {
+  color: #89BDFF;
+}
+
+.highlight .class .title,
+.highlight .haskell .type,
+.highlight .smalltalk .class,
+.highlight .javadoctag,
+.highlight .yardoctag,
+.highlight .phpdoc {
+  text-decoration: underline;
+}
+
+.highlight .symbol,
+.highlight .ruby .symbol .string,
+.highlight .number {
+  color: #3387CC;
+}
+
+.highlight .params,
+.highlight .variable,
+.highlight .clojure .attribute {
+  color: #3E87E3;
+}
+
+.highlight .css .tag,
+.highlight .rules .property,
+.highlight .pseudo,
+.highlight .tex .special {
+  color: #CDA869;
+}
+
+.highlight .css .class {
+  color: #9B703F;
+}
+
+.highlight .rules .keyword {
+  color: #C5AF75;
+}
+
+.highlight .rules .value {
+  color: #CF6A4C;
+}
+
+.highlight .css .id {
+  color: #8B98AB;
+}
+
+.highlight .annotation,
+.highlight .apache .sqbracket,
+.highlight .nginx .built_in {
+  color: #9B859D;
+}
+
+.highlight ..highlightprocessor,
+.highlight .pragma {
+  color: #8996A8;
+}
+
+.highlight .hexcolor,
+.highlight .css .value .number {
+  color: #DD7B3B;
+}
+
+.highlight .css .function {
+  color: #DAD085;
+}
+
+.highlight .diff .header,
+.highlight .chunk,
+.highlight .tex .formula {
+  background-color: #0E2231;
+  color: #F8F8F8;
+  font-style: italic;
+}
+
+.highlight .diff .change {
+  background-color: #4A410D;
+  color: #F8F8F8;
+}
+
+.highlight .addition {
+  background-color: #253B22;
+  color: #F8F8F8;
+}
+
+.highlight .deletion {
+  background-color: #420E09;
+  color: #F8F8F8;
+}
+
+.highlight .coffeescript .javascript,
+.highlight .javascript .xml,
+.highlight .tex .formula,
+.highlight .xml .javascript,
+.highlight .xml .vbscript,
+.highlight .xml .css,
+.highlight .xml .cdata {
+  opacity: 0.5;
+}
