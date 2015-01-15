@@ -4,6 +4,7 @@
 
 #content-sans-footer, footer {
     margin: 0 auto;
+    margin-bottom: 50px;
     max-width: 1200px;
 }
 
